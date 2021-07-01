@@ -1,0 +1,17 @@
+body{
+
+	background-color: #fec400;
+}
+
+.rotate{
+	width: 400px;
+	height: 400px;
+	background-color: white;
+	margin:200px;
+	transition: all 2s ease-in-out;
+}
+
+.rotate:hover{
+	background-color: #fec400;
+	transform: rotate(360deg);
+}
